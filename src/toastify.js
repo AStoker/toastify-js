@@ -158,7 +158,7 @@
       // Adding a close icon to the toast
       if (this.options.close === true) {
         // Create a span for close element
-        var closeElement = document.createElement("span");
+        var closeElement = document.createElement("button");
         closeElement.innerHTML = "&#10006;";
 
         closeElement.className = "toast-close";

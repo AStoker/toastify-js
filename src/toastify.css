@@ -30,6 +30,18 @@
 .toast-close {
     opacity: 0.4;
     padding: 0 5px;
+
+    /* Resetting button styles */
+    display: inline-block;
+    border: none;
+    font-size: 100%;
+    font-family: inherit;
+    
+    background-image: none;
+    background-color: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .toastify-right {
